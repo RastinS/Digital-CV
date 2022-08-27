@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Farzad Habibi",
-    "label": "Ph.D. Student",
-    "picture": "https://avatars.githubusercontent.com/u/30385917?s=460&u=9097ea908cd6286bb61b448bd78ade5932993769&v=4",
+    "name": "Rustin Soraki",
+    "label": "Undergraduate Student",
+    "picture": "https://github.com/RastinS.png",
     "email": "habibif@uci.edu",
     "url": "https://www.ics.uci.edu/~habibif/",
     "summary": "My name is Farzad Habibi. I'm a first-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
