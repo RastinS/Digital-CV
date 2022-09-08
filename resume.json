@@ -1,423 +1,481 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Rustin Soraki",
-    "label": "Undergraduate Student",
-    "picture": "https://github.com/RastinS.png",
-    "email": "habibif@uci.edu",
-    "url": "https://www.ics.uci.edu/~habibif/",
-    "summary": "My name is Farzad Habibi. I'm a first-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
-    "location": {
-      "address": "2059 DBH, UCI",
-      "postalCode": "CA 92697",
-      "city": "Irvine",
-      "countryCode": "USA",
-      "region": ""
-    },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "gsoosk",
-        "url": "https://github.com/gsoosk"
-      },
-      {
-        "network": "linkedin",
-        "username": "farzad-habibi-7927a8142",
-        "url": "https://www.linkedin.com/in/farzad-habibi-7927a8142/"
-      },
-      {
-        "network": "google scholar",
-        "username": "Farzad Habibi",
-        "url": "https://scholar.google.com/citations?user=Kkc3BTgAAAAJ&hl=en"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "UC Irvine, Edge Lab",
-      "location": "Irvine, CA",
-      "position": "Graduate Research Assistant",
-      "summary": "Doing research on building data infrastructure for distributed systems under supervison of Prof. Faisal Nawab.",
-      "startDate": "2022-01-01",
-      "endDate": "",
-      "description": "",
-      "highlights": [],
-      "url": "https://edge-lab.github.io/"
-    },
-    {
-      "name": "Radin Bourse",
-      "location": "Tehran, Iran",
-      "position": "Software Engineer",
-      "summary": "Building a brand-new matching engine core for Iran's national stock",
-      "startDate": "2021-02-01",
-      "endDate": "2021-11-15",
-      "description": "",
-      "highlights": [],
-      "url": "https://radinbourse.com/"
-    },
-    {
-      "name": "University of Tehran",
-      "location": "Tehran, Iran",
-      "position": "Undergraduate Research Assistant",
-      "summary": "Working on virtual network embedding (VNE) which is a well-known problem in network virtualization. I started to learn about Graph Neural Networks which is a novel machine learning architecture by reading abundance number of related papers. We leveraged this method to solve the VNE problem.",
-      "startDate": "2020-03-01",
-      "endDate": "2021-03-01",
-      "description": "",
-      "highlights": [],
-      "url": ""
-    },
-    {
-      "name": "University of Tehran Science and Technology Park",
-      "location": "Tehran, Iran",
-      "position": "Machine Learning Intern",
-      "startDate": "2019-07-01",
-      "endDate": "2019-10-01",
-      "highlights": [
-        "PAD Laboratory",
-        "Under the supervision of Prof. B. Bahrak"
-      ],
-      "summary": "I was part of the machine learning group. During this 320 hours internship, interns started to read the Hands-on Machine Learning book and participate in Kaggle competitions besides. My internship’s notebooks can be found here."
-    },
-    {
-      "name": "Rahnema College",
-      "location": "Tehran, Iran",
-      "position": "Software Engineer Intern",
-      "url": "https://rahnemacollege.com/",
-      "startDate": "2018-06-01",
-      "endDate": "2018-09-01",
-      "description": "",
-      "summary": "",
-      "highlights": [
-        "8-Week internship with scrum methodology",
-        "We designed and implemented an IOS/Andriod application with a feature combination of Instagram & Pinterest",
-        "Developed in React Native as front-end and django as back-end"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "University of Tehran",
-      "position": "Teaching Assistant",
-      "startDate": "2018-09-01",
-      "endDate": "2021-02-01",
-      "highlights": [
-        "Introduction to Programming and Computing Systems. H. Moradi, M.R. Hashemi (Projects' Supervisor)",
-        "Advanced Programming, R. Khosravi (Head Teaching Assistant)",
-        "Operating Systems, M. Kargahi",
-        "Computer Networks, A. Khonsari",
-        "Data Structure, H. Faili", 
-        "Cyber-Physical Systems, M. Kargahi",
-        "Computer Architecture, S. Safari",
-        "Internet Engineering, E. Khamespanah"
-      ]
-    },
-    {
-      "organization": "IEEE UT Student Branch",
-      "position": "ML Instructor",
-      "startDate": "2019-12-01",
-      "endDate": "2020-02-01",
-      "summary": "IEEE Data Science Winter School of Machine Learning"
-    },
-    {
-      "organization": "ACM UT Student Branch, F1 Magazine",
-      "position": "Editor",
-      "summary": "F1 is the magazine of University of Tehran’s Computer Engineering Department",
-      "startDate": "2016-02-01",
-      "endDate": "2016-05-01",
-      "url": "http://acm.ut.ac.ir/acm/categories/5?lang=en"
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of California, Irvine",
-      "url": "https://uci.edu",
-      "area": "Computer Science",
-      "studyType": "Doctorate of Philosophy",
-      "startDate": "2022-01-04",
-      "endDate": "",
-      "score": "",
-      "courses": ["Distributed Systems", "Data Management"]
-    },
-    {
-      "institution": "University of Tehran",
-      "url": "https://ut.ac.ir/en",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor of Science",
-      "startDate": "2016-09-01",
-      "endDate": "2021-04-01",
-      "score": "3.71",
-      "courses": ["Software Engineering"]
-    },
-    {
-      "institution": "Sampad, Helli 4",
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Rustin Soraki",
+      "label": "B.Sc. in Computer Engineering",
+      "picture": "https://github.com/RastinS.png",
+      "email": "rustin.soraki@gmail.com",
       "url": "",
-      "area": "Physics and Mathematics",
-      "studyType": "Diploma",
-      "startDate": "2011-09-01",
-      "endDate": "2016-09-01",
-      "score": "3.9"
+      "summary": "My name is Rustin Soraki. I'm currently working as a reaserch and development engineer at JCo. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran. My interests are mainly in Machine Learning and Computer Vision, and I also spend my leisure time on cryptocurrencies trading and developing mathematical or learning-based trading bots.",
+      "location": {
+        "address": "School of Electrical and Computer Engineering, University College of Engineering, University of Tehran, North Kargar st.",
+        "postalCode": "14399-57131",
+        "city": "Tehran",
+        "countryCode": "Iran",
+        "region": ""
+      },
+      "profiles": [
+        {
+          "network": "github",
+          "username": "RastinS",
+          "url": "https://github.com/rastins"
+        },
+        {
+          "network": "linkedin",
+          "username": "rustin-soraki",
+          "url": "https://www.linkedin.com/in/rustin-soraki/"
+        }
+      ]
+    },
+    "education": [
+        {
+            "institution": "University of Tehran",
+            "url": "https://ut.ac.ir/en",
+            "area": "Computer Engineering",
+            "studyType": "Bachelor of Science",
+            "startDate": "2016-09-01",
+            "endDate": "2022-04-01",
+            "lastTwoYearsGPA": "19.37",
+            "GPA": "17.25",
+            "major": "Software Engineering",
+            "grant": "Awarded a governmental full Tuition-Waiver scholarship",
+            "courses": ["Artificial Intelligence - 18.75/20", "Neural Networks - 19.74/20", "Engineering Mathematics - 20/20", "Signals and Systems - 18.2/20", 
+                        "Introduction to Software Testing - 19.3/20", "Advanced Software Design - 19.07/20", "Software Engineering - 19.1/20"]
+        },
+        {
+            "institution": "Sampad, Shahid Beheshti",
+            "url": "",
+            "area": "Physics and Mathematics",
+            "studyType": "Diploma",
+            "startDate": "2011-09-01",
+            "endDate": "2016-09-01",
+            "GPA": "19.69"
+        }
+    ],
+    "work": [
+        {
+            "name": "University of Tehran",
+            "location": "Tehran, Iran",
+            "position": "Undergraduate Research Assistant",
+            "summary": "Working on Texture Synthesis problem in Single-View 3D Reconstruction",
+            "startDate": "2021-02-01",
+            "endDate": "",
+            "description": "",
+            "highlights": [
+                "Best Undergraduate Project Award",
+                "Under the Supervision of Prof. Hadi Moradi and Prof. Reshad Hosseini"
+            ],
+            "url": ""
+        },
+        {
+            "name": "Jadooye Fekr (JCo)",
+            "location": "Tehran, Iran",
+            "position": "Research and Development Engineer",
+            "summary": "Associated with machine learning, computer vision, time-series analysis, cryptocurrencies and python skills",
+            "startDate": "2019-01-01",
+            "endDate": "",
+            "description": "Software Company",
+            "highlights": [],
+            "url": "https://jco.ir/"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "University of Tehran",
+            "position": "Teaching Assistant",
+            "startDate": "2017-09-01",
+            "endDate": "2022-02-01",
+            "highlights": [
+                "Neural Networks and Deep Learning - Prof. A. Kalhor",
+                "Artifial Intelligence - Prof. H. Moradi & Prof. H. Fadaei",
+                "Software Systems Analysis & Design - Prof. F. Ghasemi",
+                "Introduction to Programming and Computing Systems - Prof. H. Moradi & Prof. M.R. Hashemi"
+            ]
+        }
+    ],
+    "awards": [
+      {
+        "title": "Best Undergraudate Final Project Award",
+        "awarder": "University of Tehran", 
+        "date": "2022-03-01",
+        "summary": "For \"Texture Synthesis for 3D Shapes with Complexly Repetitive Pattern Using Poisson Blending\""
+      },
+      {
+        "title": "Iran's University Entrance Exam",
+        "date": "2016-08-01",
+        "awarder": "Sanjesh",
+        "summary": "Ranked 269 (Top 0.2%) in Konkur(Iranian University Entrance Exam) among more than 160,000 participants"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Texture Synthesis for 3D Shapes with Complexly Repetitive Pattern Using Poisson Blending",
+        "publisher": "Drafted",
+        "releaseDate": "",
+        "url": "",
+        "summary": "Under supervision of Prof. Hadi Moradi and Prof. Reshad Hosseini, University of Tehran, Iran.",
+        "abstract": "One of the biggest challenges in 3D reconstruction is single-view 3D reconstruction, a topic that has recently received much attention with hardware and software advances. This problem contains two main challenges: the production of 3D model geometry and the production of texture. This study aims to produce the texture of a 3D model using the object's surface patterns from the input image using a repetitive slice extracted from it. We utilize a linear optimization strategy to address the problem by minimizing color disparities and light intensity in the border sections of recurring design slices by utilizing image editing in the gradient domain and Poisson blending. We employ our method on middle-eastern domes and pottery with repetitive patterns, and the results demonstrated that using this method leads to visually smooth textures that are comparable with the object's original pattern. Texture generation for objects with an odd number of repetitions in their surface patterns and the ability to preserve textual sections of the pattern are two advantages of the suggested method."
+      },
+      {
+        "name": "Learning Tensorflow 2.0 (Farsi Translation)",
+        "publisher": "Simorgh Azargan Publications",
+        "releaseDate": "2021-05-01",
+        "url": "",
+        "summary": "Farsi translation of ”Learn Tensorflow 2.0” by Pramod Singh and Avinash Manure"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming",
+        "level": "master",
+        "keywords": ["Python"]
+      },
+      {
+        "name": "Programming",
+        "level": "advanced",
+        "keywords": [
+          "C", "C++", "Java", "Verilog"
+        ]
+      },
+      {
+        "name": "Programming",
+        "level": "intermediate",
+        "keywords": [
+          "SQL", "C#"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "keywords": [
+          "Pandas",
+          "NumPy",
+          "Keras",
+          "PyTorch", 
+          "Scikit-Learn",
+          "Jupyter Notebook",
+          "CNN",
+          "RNN"
+        ]
+      },
+      {
+        "name": "Other Technologies",
+        "keywords": [
+          "Docker",
+          "Git",
+          "JUnit"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "keywords": [
+            "Django",
+            "Java Spring"
+        ]
+      },
+      {
+        "name": "Markup Languages",
+        "keywords": [
+            "Latex",
+            "HTML", 
+            "CSS"
+        ]
+      },
+      {
+        "name": "Software Engineering",
+        "keywords": [
+          "OO Design Patterns", 
+          "Agile",
+          "Scrum", 
+          "Software Testing Methodologies",
+          "TDD",
+          "BDD"
+        ]
+      },
+      {
+        "name": "Operating Systems",
+        "keywords": ["Linux", "MacOS"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Farsi",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional working proficiency"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Personal",
+        "keywords": [
+            "Exercising",
+            "Reading Books",
+            "Soccer",
+            "Cooking",
+            "Traveling",
+            "Video Games"
+        ]
+      },
+      {
+        "name": "Music",
+        "keywords": [
+          "Alternative Rock", 
+          "Alternative Metal",
+          "Rap",
+          "Hip Hop",
+          "Classical Music"
+        ]
+      }
+    ],
+    "researchInterests": [
+      {
+        "name": "Rsearch",
+        "interests": [
+            "Machine Learning",
+            "Computer Vision",
+            "Object detection",
+            "Medical Imaging",
+            "Time-series Analysis",
+            "Reinforcement Learning",
+            "Blockchain",
+            "Software Engineering",
+            "Data Mining"
+        ]
+      }
+    ],
+    "certificates": [
+        {
+            "name": "Cloud Computing Concepts, Part 1",
+            "issuer": "University of Illinois Urbana-Champaign",
+            "date": "2022-06-22",
+            "url": "https://www.coursera.org/account/accomplishments/verify/UWXY6RACWNBX"
+        },
+        {
+            "name": "Neural Networks and Deep Learning",
+            "issuer": "DeepLearning.AI",
+            "date": "2021-07-24",
+            "url": "https://www.coursera.org/account/accomplishments/verify/CWYVWNCBZ4JD"
+        },
+        {
+            "name": "GCP Big Data & ML Fundamentals",
+            "issuer": "Binx.io | Part of Xebia",
+            "date": "2021-06-01",
+            "url": ""
+        },
+        {
+            "name": "Security +",
+            "issuer": "Karyar Argham (Carrier Digit)",
+            "date": "2020-03-01",
+            "url": ""
+        },
+        {
+            "name": "Computer Vision",
+            "issuer": "Robotech Academy",
+            "date": "2019-12-01",
+            "url": ""
+        },
+        {
+            "name": "Iran Blockchain Summer School",
+            "issuer": "Sharif Accelerator",
+            "date": "2019-08-01",
+            "url": ""
+        }
+    ],
+    "projects": [
+      {
+        "name": "A Framework for Executing Trading Strategies",
+        "highlights": ["With capabilities to backward or forward test implemented strategies.",
+                      "Implementing different cryptocurrencies trading strategies based on different indicators.",
+                      "Implementing different trading strategies using deep learning methods."],
+        "entity": "Python, Deep Learning, Algorithmic Trading, Pandas, Forecasting",
+        "year": "2022"
+      },
+      {
+        "name": "TradeGate",
+        "url": "https://pypi.org/project/TradeGate/",
+        "highlights": ["A python library for algorithmic trading and connecting to different exchanges.",
+                      "Unifying different exchanges' APIs.",
+                      "Implemented using different design patterns."],
+        "entity": "Python, Algorithmic Trading, Pandas",
+        "year": "2022"
+      },
+      {
+        "name": "Automatic Real-Time Refereeing for Bocce Ball Game",
+        "highlights": ["Using four wide angle cameras above the center line of the game court.",
+                      "Detecting balls on the ground (four colored balls with a single white ball) using YOLOv5.",
+                      "Finding exact distance between colored balls and the white ball using different geometry and image processing techniques.",
+                      "Implemented mainly using OpenCV functions."],
+        "entity": "Python, Computer Vision, Object Detection, Pytorch, OpenCV",
+        "year": "2021"
+      },
+      {
+        "name": "Finding Sentence Similarities",
+        "highlights": ["For farsi sentences, using ParsBERT.",
+                      "Implemented for a knowledge management system.",
+                      "Converting sentences to vectors and finding similar sentences using cosine similarities.",
+                      "Provided REST API endpoints using the Django framework."],
+        "entity": "Python, NLP, Django",
+        "year": "2021"
+      },
+      {
+        "name": "An Automatic License Plate Recognition for Iranian Plates",
+        "highlights": ["Using YOLOv3 and updated to YOLOv5.",
+                      "Data acquisition was made manually, and different image augmentation techniques were used on the dataset.",
+                      "Image augmentation is done using the \"Albumentations\" package and editing the labels correctly.",
+                      "Implemented as a two-step detector: First locating the plate and then recognizing plate characters inside the plate area.",
+                      "Provided REST and SOAP API endpoints using the Django framework."],
+        "entity": "Python, Pytorch, Object Detection, Django",
+        "year": "2020"
+      },
+      {
+        "name": "Training CGAN on Fashion-MNIST dataset",
+        "highlights": ["Training the GAN network and generating new data.",
+                      "Analyzing effects of different loss functions and optimizers in training.",
+                      "Generating different results using different latent space points and decoder networks."],
+        "entity": "Python, Keras, Deep Learning",
+        "year": "2020"
+      },
+      {
+        "name": "Training Variational Auto Encoder and Conditional Variational Auto Encoder on MNIST dataset",
+        "highlights": ["Training the encoder and the decoder parts.",
+                      "Visualizing the data in latent space with a scatter plot.",
+                      "Generating different results using different latent space points and decoder networks."],
+        "entity": "Python, Keras, Deep Learning",
+        "year": "2020"
+      },
+      {
+        "name": "Text Generation Using RNN Network",
+        "highlights": ["Using Shakespear dataset.",
+                      "LSTM layers for data generation and memory."],
+        "entity": "Python, Keras, NLP",
+        "year": "2020"
+      },
+      {
+        "name": "Video Frame Prediction Using CNN and RNN",
+        "highlights": ["Predicting future frames of pendulum movement video.",
+                      "1, 5, 10, 20, 50 frames look-ahead window.",
+                      "Using convolutional layers to implement an encoder and a decoder to reduce the frame's dimensions.",
+                      "Using LSTM layers as the middle part of the network between encoder and decoder to predict future frames."],
+        "entity": "Python, Keras, Image Processing",
+        "year": "2020"
+      },
+      {
+        "name": "Solving Frozen Lake Problem Using Q-Learning and Deep Q-Learning",
+        "highlights": ["Using \"FrozenLake v0\" environment from gym.",
+                      "Implemented Q-learning method.",
+                      "Implementing Deep Q-Learning with experience replay using keras."],
+        "entity": "Python, Keras, Reinforcement Learning",
+        "year": "2020"
+      },
+      {
+        "name": "YOLO Object Detection on Chess Pieces Dataset",
+        "highlights": ["Using YOLO-v5."],
+        "entity": "{Python, Keras, YOLO, Computer Vision, Object Detection",
+        "year": "2020"
+      },
+      {
+        "name": "Transfer-Learning with EfficientNet",
+        "highlights": ["A review on EfficientNet novelties and network structures.",
+                      "Running inference using EfficientNet-B0 using Keras.",
+                      "Transfer learning using EfficientNet-B0 top part and custom dense layers to classify two classes from the CIFAR-10 dataset"],
+        "entity": "Python, Keras, Deep Learning",
+        "year": "2020"
+      },
+      {
+        "name": "Solving Simple Problems using Multi-Layer Perceptron",
+        "highlights": ["Predicting average daily rates of \"Hotel Booking Demand\" dataset as a regression problem.",
+                      "Predicting labels of CIFAR-10 dataset as a classification problem.",
+                      "Implemented using Keras library.",
+                      "Analyzing effects of using different activation functions, loss functions, optimizers, and evaluation metrics.",
+                      "Providing and implementing a solution for unbalanced data."],
+        "entity": "Python, Keras, Neural Networks",
+        "year": "2020"
+      },
+      {
+        "name": "Software testing course projects",
+        "highlights": ["Different testing methods implemented on \"Spring PetClinic Sample Application\".",
+                      "Testing methods including JUnit, test doubles, code coverage methods, input‌ space partitioning, API testing, mutation testing, UI testing, and BDD."],
+        "entity": "Java, Software Testing, JUnit",
+        "year": "2020"
+      },
+      {
+        "name": "Ball on Plate Balancing System",
+        "highlights": ["Using a rectangle plate with four arms and a camera above the plate.",
+                      "Fetching ball position using camera and object detection based on the ball's color.",
+                      "Balancing the ball in the center of the plate using a PID controller and four-step motors."],
+        "entity": "Python, OpenCV, Computer Vision, Socket Programming, PID Controller",
+        "year": "2020"
+      },
+      {
+        "name": "Jalas Website",
+        "highlights": ["A website to set meeting dates.",
+                      "Creating users and meetings, adding users to meetings, editing meetings, and notifying meeting invitees through email.",
+                      "Java Spring Framework for the back-end and Reach.js for the front-end."],
+        "entity": "Java, Java Spring Framework, SQL, NoSQL, REST API",
+        "year": "2019"
+      },
+      {
+        "name": "Jaboonja",
+        "highlights": ["Implementation of a web application for finding projects to do if you are qualified for them.",
+                      "Implemented in Java(Spring framework) for backend and JavaScript(React.js) for frontend."],
+        "entity": "Java, Java Spring Framework, HTML, CSS",
+        "year": "2019"
+      },
+      {
+        "name": "\"UCI Heart Disease\" data set classification",
+        "highlights": ["Using bagging decision tree and random forest methods."],
+        "entity": "Python, Artificial Intelligence, Machine Learning, Data Science",
+        "year": "2019"
+      },
+      {
+        "name": "Saadi and Hafez poem classification",
+        "highlights": ["Pre-processing and using the bag-of-words method on the Saadi and Hafez poems dataset.",
+                      "Classification using naive Bayes method."],
+        "entity": "Python, Artificial Intelligence, Machine Learning, NLP, Data Science",
+        "year": "2019"
+      },
+      {
+        "name": "Simple Intelligent Game Players",
+        "highlights": ["Checkers player using Mini-Max algorithm with alpha-beta pruning method.",
+                      "PacMan player using different searching algorithms (A*, IDS, BFS) to design an intelligent PacMan in a modified game version."],
+        "entity": "Python, Artificial Intelligence",
+        "year": "2018"
+      },
+      {
+        "name": "Operating Systems Course Projects",
+        "highlights": ["Synchronization of MLP Neural Networks Using Semaphores: Using semaphore locks to assure synchronization and output integrity of distinct concurrent processes in each layer of an MLP neural network.",
+                      "Multi-Thread Store Search: Using load balancing and multi-threading through a pipeline and asynchronous forking techniques.",
+                      "Online Battleship Game: Using the C programming language, createing a Battleship game in which the server connects two clients and the game runs in a peer-to-peer manner."],
+        "entity": "C, C++, Operating Systems, Socket Programming, Threading, Distributed Systems",
+        "year": "2018"
+      },
+      {
+        "name": "Image compression and decompression",
+        "highlights": ["With color space conversion (RGB to YUV), downsampling, signal transform, quantization, and lossless coding steps for compression."],
+        "entity": "Verilog, C, Computer-Aided Design",
+        "year": "2018"
+      },
+      {
+        "name": "Advanced Programming Course Projects",
+        "highlights": ["Taxiare: A taxi ordering application: Client-Server architecture, Qt application with user administration, pricing computation (using graph search methods), and graphical interface.",
+                        "\"Plants Vs. Zombies\" Game: Simple graphical implementation, employing the RSDL library for graphical rendering and simple C++ to handle various moving elements.",
+                        "Image Steganography: Using a cipher key to perform both the encryption and decryption of a text message contained within a picture."],
+        "entity": "C++, RSDL, Qt",
+        "year": "2016 - 2017"
+      },
+      {
+        "name": "Simple project version control",
+        "highlights": ["With the capabilities of creating users and projects, adding users to projects, versioning projects, and keeping track of the versions."],
+        "entity": "C",
+        "year": "2016"
+      }
+    ],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "lastModified": "2017-12-24T15:53:00"
     }
-  ],
-  "awards": [
-    {
-      "title": "CS Department Dean’s Fellowship",
-      "awarder": "UC Irvine",
-      "date": "2021-09-01", 
-      "summary": "I have been nominated for a one-time 10,000$ Dean's Award to support my research in 2021/2022"
-    },
-    {
-      "title": "Best Undergraudate Final Project Award",
-      "awarder": "University of Tehran", 
-      "date": "2021-03-01"
-    },
-    {
-      "title": "Top 10% of Class",
-      "date": "2021-03-01",
-      "awarder": "University of Tehran",
-      "summary": "Ranked among the top 10% of the graduating class which included 88 student"
-    },
-    {
-      "title": "Iran's University Entrance Exam",
-      "date": "2016-08-01",
-      "awarder": "Sanjesh",
-      "summary": "Ranked 325 (Top 0.2%) in Konkur(Iranian University Entrance Exam) among more than 160,000 participants"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Accelerating Virtual Network Embedding with Graph Neural Networks",
-      "publisher": "IEEE/ACM/IFIP Conference on Network and Service Management (CNSM 2020)",
-      "releaseDate": "2020-09-01",
-      "url": "https://ieeexplore.ieee.org/abstract/document/9269128",
-      "summary": "virtual network embedding (VNE) is a well-known problem in network virtualization. We leveraged Graph Neural Networks which is a novel machine learning architecture for graphs to solve this problem with a better performance and scalability."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming",
-      "level": "master",
-      "keywords": ["C++", "Java"]
-    },
-    {
-      "name": "Programming",
-      "level": "advanced",
-      "keywords": [
-        "C", "Phython", "JavaScript", "VerilogHDL"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "intermediate",
-      "keywords": [
-        "SQL", "PHP"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level":"beginner",
-      "keywords": [
-        "Shell Script", "Assembely", "C#"
-      ]
-    },
-    {
-      "name": "Technologies",
-      "keywords": [
-        "Git", 
-        
-        "Maven", 
-        "MakeFile"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "keywords": [
-        "Pandas",
-        "NumPy", 
-        "PyTorch", 
-        "Scikit-Learn",
-        "Jupyter Notebook",
-        "GNN",
-        "FNN"
-      ]
-    },
-    {
-      "name": "Frameworks",
-      "keywords": [
-        "Docker", 
-        "Ansible",
-        "JUnit",
-        "Familiar with Kubernetes"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "keywords": [
-        "React",
-        "React Native",
-        "Redux", 
-        "Spring",
-        "Django"
-      ]
-    },
-    {
-      "name": "Markup Languages",
-      "keywords": [
-        "HTML", 
-        "Latex",
-        "Markdown",
-        "CSS"
-      ]
-    },
-    {
-      "name": "Software Engineering",
-      "keywords": [
-        "oo design patterns", 
-        "Agile",
-        "Scrum", 
-        "software testing methodologies"
-      ]
-    },
-    {
-      "name": "Operating Systems",
-      "keywords": ["Linux", "MacOS"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Persian",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Professional working proficiency"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Personal",
-      "keywords": [
-        "Cooking",
-        "Camping",
-        "Travelling",
-        "Hiking",
-        "Video Games",
-        "Volley Ball"
-      ]
-    },
-    {
-      "name": "Music",
-      "keywords": [
-        "Alternative Rock", 
-        "Progressive Rock",
-        "Indie",
-        "Free Jazz"
-      ]
-    }
-  ],
-"certificates": [
-  {
-    "name": "Cloud Computing Concepts, Part 2",
-    "issuer": "Coursera",
-    "date": "2020-12-01",
-    "url": "https://www.coursera.org/account/accomplishments/certificate/U84DSLAMJA2A"
-  },
-  {
-    "name": "Cloud Computing Concepts, Part 1",
-    "issuer": "Coursera",
-    "date": "2020-05-01",
-    "url": "https://www.coursera.org/account/accomplishments/certificate/7CP3P2KCJW3V"
   }
-],
-  "projects": [
-    {
-      "name": "Peter DB",
-      "description": "A full implementation of a database system consists of Paged File Manager, Record Based File Manager, Relation Manager, Index Manage, and QueryEngine.",
-      "url": "https://github.com/gsoosk/PeterDB"
-    },
-    {
-      "name": "Virtual Network Routing",
-      "description": "Represents a distance-vector network routing protocol among virtual nodes that are connected via interfaces.",
-      "url": "https://github.com/gsoosk/VirtualNetworkRouting"
-    },
-    {
-      "name": "Key-Value Store + Gossip membership protocol",
-      "description": " A full implementation of a distributed key-value store inspired by the Cassandra key- value database using a three-layer architecture.",
-      "url": "https://github.com/gsoosk/KeyValueStore"
-    },
-    {
-      "name": "House Prices: Advanced Regression Techniques",
-      "description": "Using advanced regression techniques like random forest and gradient boosting to predict house prices. (Rank 213 between 5,523 teams in Kaggle)",
-      "url": "https://www.kaggle.com/farzadhabibi/house-prices-stacking-feature-selection-eng"
-    },
-    {
-      "name": "Fraud Detection",
-      "description": "Using a full exploratory data analysis (EDA), feature engineering and comparing different training models to propose a method to detect frauds in the IEEE-CIS dataset.",
-      "url": "https://www.kaggle.com/farzadhabibi/fraud-detection-feature-eng-selection-xgb-eda"
-    },
-    {
-      "name": "Gnutella Implementation",
-      "description": "A full implementation of a peer-to-peer file-sharing system implemented in python and mininet.",
-      "url": "https://github.com/gsoosk/Gnutella-Impl."
-    },
-    {
-      "name": "P. OS",
-      "description": "A cloned xv6 kernel with some added features for CPU scheduling, memory management, and synchronization.",
-      "url": "https://www.github.com/gsoosk/POS"
-    },
-    {
-      "name": "TCP Over UDP",
-      "description": "An implementation of TCP New Reno over UDP, with reliable data transfer, congestion control, and flow control. Also this im- plementation includes the Nagle algorithm.",
-      "url": "https://github.com/gsoosk/TCP-Over-UDP"
-    },
-    {
-      "name": "Proxy Server",
-      "description": " An implementation of a proxy server in application layer with some extra features like accounting, privacy, caching, etc.",
-      "url": "https://github.com/gsoosk/ProxyServer"
-    },
-    {
-      "name": "Cyber Physical Systems Course's Projects",
-      "description": "A series of projects to become familiar with embedded hardware and real-time software",
-      "url": "https://github.com/gsoosk/Real-TimeEmbeddedSystemsCourseProjects"
-    },
-    {
-      "name": "Real-Time Robotic Arm",
-      "description": "A real-time robotic arm with recording functionality and high optimization in storage usage.",
-      "url": "https://github.com/gsoosk/RealTimeRoboticArm"
-    },
-    {
-      "name": "MIPS",
-      "description": "Implementation of MIPS CPU using VerilogHDL. It includes three phases: single-cycle, single-cycle with pipeline, and multi-cycle.",
-      "url": "https://github.com/gsoosk/MIPS-MultiCycle"
-    },
-    {
-      "name": "SmoolaCompiler",
-      "description": "Implementation of a compiler for an object-oriented language called Smoola from scratch -  Implemented in Java in four phase.",
-      "url": "https://github.com/gsoosk/SmoolaCompiler"
-    },
-    {
-      "name": "Titanic Classification",
-      "description": "An analysis on Titanic disaster  to find out what sorts of people were likely to survive using Machine Learning.",
-      "url": "https://github.com/gsoosk/Titanic"
-    },
-    {
-      "name": "Joboonja",
-      "description": "Implementation of a web application for finding projects to do if you are qualified for them. - Implemented in Java(Spring framework) for backend and JavaScript(React js) for frontend.",
-      "url": "https://github.com/joboonja/Joboonja"
-    },
-    {
-      "name": "Store Search",
-      "description": "Filtering files content and sorting them ascend/descend by field using multiprocess and using pipes to connecting them",
-      "url": "https://github.com/gsoosk/StoreSearch"
-    },
-    {
-      "name": "Intelligent PacMan",
-      "description": "Using different searching algorithms (Astar, IDS, BFS) to design an intelligent  PacMan in a modified version of the game.",
-      "url": "https://github.com/gsoosk/Pacman-Search"
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
-}
+  
